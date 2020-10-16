@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Untested Form </title>
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="book-btn">
+  <a href="index.html" class="table-btn hvr-underline-from-center">Back</a>
+  </div>
+  <h3> Untested Form </h3>
+ <form action="/action_page.php">
+  <div class="container">
+        <hr>
+    <label for="date"><b>Date</b></label>
+    <input  type="date"><br><br>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Donor Name" name="name" id="name" required>
+
+    <label for="fname"><b>Father's Name</b></label>
+    <input type="text" placeholder="Enter Father's Name" name="fname" id="fname" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+   
+    <label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Enter Full Address" name="address" id="address" required>
+
+    <label for="Contact"><b>Contact No</b> </label> <br><br>     
+	  <input type="tel" id="phone" placeholder="Use digit 0-9" size="60" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required> <br><br>
+
+    <label for="Weight"><b>Weight</b></label>
+    <input type="text" placeholder="Enter Patient Weight in Kg" name="Weight" id="Weight" required>
+
+    <label for="BP"><b>BP Systlic/Diastolic</b></label>
+    <input type="text" placeholder="Enter Patient BP in mm/Hg" name="BP" id="BP" required>
+
+    <label for="Pulse"><b>Pulse</b></label>
+    <input type="text" placeholder="Enter Pulse Rate" name="Pulse" id="Pulse" required>
+
+    <label for="hb"><b>Heamoglobin</b></label>
+    <input type="text" placeholder="Enter Heamoglobin" name="hb" id="hb" required>
+
+    <label for="temp"><b>Temperature</b></label>
+    <input type="text" placeholder="Enter Temperature in °F " name="temp" id="temp" required>
+
+
+</form>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  background-image: linear-gradient(red, yellow);
+}
+h1 {
+  margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 110px;
+    color: #d64161
+}
+h2 {
+  margin: 0;
+    padding: 0;
+  text-align: right;
+  color: #d64161;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+  background-image: url();
+}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #d64161;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+</style>
+</form>
+</div>
+</body>
+</html>
